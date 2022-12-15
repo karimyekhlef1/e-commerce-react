@@ -1,0 +1,42 @@
+/* body{
+   padding: 0;
+   margin: 0;
+   box-sizing: 0;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.navbar{
+    padding: 0;
+    border-bottom: rgb(196, 192, 192) solid 0.05px;
+    width: 100%;
+    
+}
+.nav-link{
+    /* margin-left: 6px;
+    margin-right: 6px; */
+}
+.navbar-nav{
+}
+.NavLink{
+color: rgb(108,108,108);
+text-decoration: none;
+margin-right: 20px;
+font-weight:500;
+border-radius: 30px;
+padding: 16px;
+
+}
+.NavLink.active{
+color: rgb(36, 128, 220);
+
+}
+.NavLink:hover{
+
+   
+    background-color: rgba(97, 144, 190, 0.897);
+    color: white;
+
+}

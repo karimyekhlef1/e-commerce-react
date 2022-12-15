@@ -1,0 +1,33 @@
+/* .App{ 
+   padding: 0;
+   margin: 0;
+   box-sizing: 0;
+} */
+   .home{
+      min-height: max-content;
+      width: 50%;
+      margin: 0px;
+      margin: 0;
+     
+   }
+   .BtBar{
+ top:100px;
+ 
+   }
+   button{
+       border: none;
+       text-align: center;
+       align-items: center;
+       background-color: white;
+   }
+   .footer{
+      position:relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:rgb(141, 141, 141);
+      color: white;
+      text-align: center;
+   }
+   
+  

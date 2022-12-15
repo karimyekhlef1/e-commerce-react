@@ -1,0 +1,37 @@
+.card-product {
+    margin: 30px;
+    /* max-width: 18rem;
+    min-width: 18rem; */
+    position: absolute;
+
+}
+.buttons-card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-product:hover .buttons-card {
+    bottom: 30px;
+    opacity: 1;
+
+}
+.btn {
+    margin: 3px;
+}
+.btn:hover {
+    background-color: rgb(49, 49, 214);
+}
+.card-product-image{
+    width: 16rem ;
+    height:16rem;
+}
+.card-product:hover .card-product-image {
+    width: 22rem ;
+    height:22rem;
+
+
+}
+
+
+  
+
+

@@ -1,0 +1,17 @@
+.products{
+/* display: grid; */
+/* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+/* gap: 20px; */
+/* width: 100%; */
+}
+.card-product{
+    align-items: center;
+}
+.card-product:hover{
+    align-items: center;
+cursor: pointer;
+}
+.card-product:hover.card-img-top.card-product-image img{
+height: 12rem;
+width: 12rem;
+}

@@ -1,0 +1,73 @@
+.home{
+    height: max-content;
+}
+
+.bg-image{
+display: grid;
+}
+.bg-image img{
+    position:static;
+}
+/* .Shop-Now{
+    top: 20px;
+ 
+    background-color: rgb(108,108,108);
+    border-radius: 12px;
+    margin-top: -300px;
+    margin-left: 168px;
+    font-weight: 600;
+    color: white;
+} */
+
+
+.img-container{
+    display: inline-block;
+    position: relative;
+}
+.Shop-Now{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    height:60px;
+    width: 180px;
+  /* margin-top: -300px;
+  margin-left: 168px; */
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1;
+  /* padding: 1rem 1.6rem; */
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Shop-Now:hover {
+  background-color: rgba(97, 144, 190, 0.897);
+  color: white;
+  border:none;
+}
+
+@media (max-width: 768px) {
+  .Shop-Now {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+    height:40px;
+    width: 120px;
+    font-size: 0.725rem;
+    font-weight: 500;
+
+  }
+}

@@ -1,0 +1,38 @@
+.big-card{
+    justify-content: center
+}
+.card-order{
+    padding-top:5px;
+    /* width: 100%; */
+    display: flex;
+    margin-bottom: 5px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   height:"120px";
+   padding-top:5px;
+}
+
+.order {
+    border-radius: 15px;
+    border: 2px solid rgb(204, 204, 204);
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+.card-btn{
+    flex-direction: row-reverse;
+    min-width:100%;
+    display: flex;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .order{
+        width: 100%;
+    }
+  }
